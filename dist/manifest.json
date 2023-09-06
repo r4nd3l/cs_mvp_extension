@@ -1,0 +1,14 @@
+{
+  "name": "Simple Toggle Sites",
+  "version": "0.1.0",
+  "description": "A very basic extension to quickly block or allow a list",
+  "permissions": ["storage", "webRequest"],
+  "host_permissions": ["http://*/", "https://*/"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
